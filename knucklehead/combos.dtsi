@@ -5,6 +5,7 @@
     bindings = <BINDINGS>; \
     key-positions = <KEYPOS>; \
     layers = <LAYERS>; \
+    require-prior-idle-ms = <QUICKTAP>; \
   };
 
 / {
