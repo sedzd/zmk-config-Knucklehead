@@ -77,5 +77,18 @@
         <&macro_param_1to1>,
         <&macro_release &mo MACRO_PLACEHOLDER>;
     };
+
+      /*
+     - tap: command + K
+     - then: Z
+     */
+     
+    /omit-if-no-ref/ zen: zen {
+        label = "ZM_zen";
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp LG(K) &kp Z>;
+    };
+
   };
 };
