@@ -12,6 +12,7 @@
 // Meh key
 #define MEH LS(LC(LALT))
 #define CLT LC(LALT)
+#define TRM LG(NUMBER_1)
 
 // Behaviors Constants
 #define TAPPING_TERM_MS 280
